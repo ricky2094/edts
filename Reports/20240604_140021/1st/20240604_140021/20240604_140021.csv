@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1st,,,,04-06-2024 14:00:29,04-06-2024 14:01:10,40.980s,PASSED
+,,,,,,,
+Test Cases/Valid Login,,,,04-06-2024 14:00:29,04-06-2024 14:00:53,24.641s,PASSED
+"startApplication(apkUrl, false)",,,,04-06-2024 14:00:29,04-06-2024 14:00:46,16.665s,PASSED
+"setText(findTestObject(""android.widget.EditText - Username""), validUsername, 0)",,,,04-06-2024 14:00:46,04-06-2024 14:00:50,3.994s,PASSED
+"setText(findTestObject(""android.widget.EditText - Password""), validPassword, 0)",,,,04-06-2024 14:00:50,04-06-2024 14:00:53,2.798s,PASSED
+"tap(findTestObject(""android.widget.TextView - LOGIN""), 0)",,,,04-06-2024 14:00:53,04-06-2024 14:00:53,0.916s,PASSED
+,,,,,,,
+Test Cases/add to cart,,,,04-06-2024 14:00:53,04-06-2024 14:01:10,16.175s,PASSED
+"tap(findTestObject(""android.widget.TextView - ADD TO CART""), 0)",,,,04-06-2024 14:00:54,04-06-2024 14:00:55,1.299s,PASSED
+"price = getText(findTestObject(""android.widget.TextView - 29.99""), 0)",,,,04-06-2024 14:00:55,04-06-2024 14:00:56,0.974s,PASSED
+"tap(findTestObject(""android.view.ViewGroup""), 0)",,,,04-06-2024 14:00:56,04-06-2024 14:00:56,0.333s,PASSED
+"cartPrice = getText(findTestObject(""android.widget.TextView - 29.99 (1)""), 0)",,,,04-06-2024 14:00:56,04-06-2024 14:00:57,1.066s,PASSED
+"verifyMatch(price, cartPrice, false)",,,,04-06-2024 14:00:57,04-06-2024 14:00:57,0.031s,PASSED
+"tap(findTestObject(""android.widget.TextView - CHECKOUT""), 0)",,,,04-06-2024 14:00:57,04-06-2024 14:00:58,0.406s,PASSED
+"setText(findTestObject(""android.widget.EditText - First Name""), firstName, 0)",,,,04-06-2024 14:00:58,04-06-2024 14:01:01,3.599s,PASSED
+"setText(findTestObject(""android.widget.EditText - Last Name""), lastName, 0)",,,,04-06-2024 14:01:01,04-06-2024 14:01:04,2.795s,PASSED
+"setText(findTestObject(""android.widget.EditText - ZipPostal Code""), postal, 0)",,,,04-06-2024 14:01:04,04-06-2024 14:01:08,3.465s,PASSED
+hideKeyboard(),,,,04-06-2024 14:01:08,04-06-2024 14:01:09,1.369s,PASSED
+"tap(findTestObject(""android.widget.TextView - CONTINUE""), 0)",,,,04-06-2024 14:01:09,04-06-2024 14:01:10,0.659s,PASSED

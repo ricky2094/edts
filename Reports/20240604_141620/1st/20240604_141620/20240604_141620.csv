@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1st,,,,04-06-2024 14:16:28,04-06-2024 14:17:14,46.459s,PASSED
+,,,,,,,
+Test Cases/Valid Login,,,,04-06-2024 14:16:28,04-06-2024 14:16:52,24.601s,PASSED
+"startApplication(apkUrl, false)",,,,04-06-2024 14:16:28,04-06-2024 14:16:45,16.567s,PASSED
+"setText(findTestObject(""android.widget.EditText - Username""), validUsername, 0)",,,,04-06-2024 14:16:45,04-06-2024 14:16:49,3.993s,PASSED
+"setText(findTestObject(""android.widget.EditText - Password""), validPassword, 0)",,,,04-06-2024 14:16:49,04-06-2024 14:16:51,2.773s,PASSED
+"tap(findTestObject(""android.widget.TextView - LOGIN""), 0)",,,,04-06-2024 14:16:51,04-06-2024 14:16:52,1.008s,PASSED
+,,,,,,,
+Test Cases/add to cart,,,,04-06-2024 14:16:52,04-06-2024 14:17:14,21.694s,PASSED
+"tap(findTestObject(""android.widget.TextView - ADD TO CART""), 0)",,,,04-06-2024 14:16:53,04-06-2024 14:16:54,1.266s,PASSED
+"price = getText(findTestObject(""android.widget.TextView - 29.99""), 0)",,,,04-06-2024 14:16:54,04-06-2024 14:16:55,0.924s,PASSED
+"tap(findTestObject(""android.view.ViewGroup""), 0)",,,,04-06-2024 14:16:55,04-06-2024 14:16:55,0.285s,PASSED
+"cartPrice = getText(findTestObject(""android.widget.TextView - 29.99 (1)""), 0)",,,,04-06-2024 14:16:55,04-06-2024 14:16:56,1.182s,PASSED
+"verifyMatch(price, cartPrice, false)",,,,04-06-2024 14:16:56,04-06-2024 14:16:56,0.035s,PASSED
+"tap(findTestObject(""android.widget.TextView - CHECKOUT""), 0)",,,,04-06-2024 14:16:56,04-06-2024 14:16:57,0.418s,PASSED
+"setText(findTestObject(""android.widget.EditText - First Name""), firstName, 0)",,,,04-06-2024 14:16:57,04-06-2024 14:17:00,3.458s,PASSED
+"setText(findTestObject(""android.widget.EditText - Last Name""), lastName, 0)",,,,04-06-2024 14:17:00,04-06-2024 14:17:03,2.923s,PASSED
+"setText(findTestObject(""android.widget.EditText - ZipPostal Code""), postal, 0)",,,,04-06-2024 14:17:03,04-06-2024 14:17:06,2.963s,PASSED
+hideKeyboard(),,,,04-06-2024 14:17:06,04-06-2024 14:17:08,1.408s,PASSED
+"tap(findTestObject(""android.widget.TextView - CONTINUE""), 0)",,,,04-06-2024 14:17:08,04-06-2024 14:17:08,0.708s,PASSED
+"scrollToText(""FINISH"", STOP_ON_FAILURE)",,,,04-06-2024 14:17:08,04-06-2024 14:17:13,4.368s,PASSED
+"tap(findTestObject(""android.widget.TextView - FINISH""), 0)",,,,04-06-2024 14:17:13,04-06-2024 14:17:13,0.369s,PASSED
+"verifyElementVisible(findTestObject(""android.widget.TextView - THANK YOU FOR YOU ORDER""), 0)",,,,04-06-2024 14:17:13,04-06-2024 14:17:14,1.170s,PASSED

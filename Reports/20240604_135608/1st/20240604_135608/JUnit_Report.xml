@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1st" time="54.562" tests="2" failures="0" errors="0">
+   <testsuite name="1st" tests="2" failures="0" errors="0" time="54.562" skipped="0" timestamp="04-06-2024T13:56:16" hostname="ricky - rickywork" id="Test Suites/1st">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\ricky\\Katalon Studio\\tes edts\\Reports\\20240604_135608\\1st\\20240604_135608"/>
+         <property name="logFiles" value="C:\\Users\\ricky\\Katalon Studio\\tes edts\\Reports\\20240604_135608\\1st\\20240604_135608\\appium.log, C:\\Users\\ricky\\Katalon Studio\\tes edts\\Reports\\20240604_135608\\1st\\20240604_135608\\appium_error.log, C:\\Users\\ricky\\Katalon Studio\\tes edts\\Reports\\20240604_135608\\1st\\20240604_135608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ricky - rickywork"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.4&quot;}}}"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.4"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Valid Login" time="23.949" classname="Test Cases/Valid Login" status="PASSED">
+         <system-out><![CDATA[04-06-2024T13:56:16 - [TEST_CASE][PASSED] - Test Cases/Valid Login: Test Cases/Valid Login
+
+04-06-2024T13:56:16 - [TEST_STEP][PASSED] - startApplication(apkUrl, false): Started application: 'C:\Users\ricky\Downloads\super-framework-master\super-framework-master\apps\sauce-demo-app-2.7.1.apk'
+
+04-06-2024T13:56:16 - [MESSAGE][INFO] - Starting application: 'C:\Users\ricky\Downloads\super-framework-master\super-framework-master\apps\sauce-demo-app-2.7.1.apk'
+
+04-06-2024T13:56:16 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+04-06-2024T13:56:17 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+04-06-2024T13:56:22 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+04-06-2024T13:56:22 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ricky\.appium
+
+04-06-2024T13:56:22 - [MESSAGE][INFO] - appium outlog: C:\Users\ricky\Katalon Studio\tes edts\Reports\20240604_135608\1st\20240604_135608\appium.log
+
+04-06-2024T13:56:22 - [MESSAGE][INFO] - appium errlog: C:\Users\ricky\Katalon Studio\tes edts\Reports\20240604_135608\1st\20240604_135608\appium_error.log
+
+04-06-2024T13:56:25 - [MESSAGE][INFO] - Appium server started on port 63,470
+
+04-06-2024T13:56:32 - [MESSAGE][PASSED] - Started application: 'C:\Users\ricky\Downloads\super-framework-master\super-framework-master\apps\sauce-demo-app-2.7.1.apk'
+
+04-06-2024T13:56:32 - [TEST_STEP][PASSED] - setText(findTestObject("android.widget.EditText - Username"), validUsername, 0): Text 'standard_user' has been set to element 'Object Repository/android.widget.EditText - Username'
+
+04-06-2024T13:56:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:36 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/android.widget.EditText - Username'
+
+04-06-2024T13:56:36 - [TEST_STEP][PASSED] - setText(findTestObject("android.widget.EditText - Password"), validPassword, 0): Text 'secret_sauce' has been set to element 'Object Repository/android.widget.EditText - Password'
+
+04-06-2024T13:56:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:39 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/android.widget.EditText - Password'
+
+04-06-2024T13:56:39 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - LOGIN"), 0): Tapped on element 'Object Repository/android.widget.TextView - LOGIN'
+
+04-06-2024T13:56:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - LOGIN']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add to cart" time="30.44" classname="Test Cases/add to cart" status="PASSED">
+         <system-out><![CDATA[04-06-2024T13:56:40 - [TEST_CASE][PASSED] - Test Cases/add to cart: Test Cases/add to cart
+
+04-06-2024T13:56:40 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - ADD TO CART"), 0): Tapped on element 'Object Repository/android.widget.TextView - ADD TO CART'
+
+04-06-2024T13:56:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - ADD TO CART'
+
+04-06-2024T13:56:41 - [TEST_STEP][PASSED] - price = getText(findTestObject("android.widget.TextView - 29.99"), 0): Text of element 'Object Repository/android.widget.TextView - 29.99' is: '$29.99'
+
+04-06-2024T13:56:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 29.99' is: '$29.99'
+
+04-06-2024T13:56:42 - [TEST_STEP][PASSED] - tap(findTestObject("android.view.ViewGroup"), 0): Tapped on element 'Object Repository/android.view.ViewGroup'
+
+04-06-2024T13:56:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.ViewGroup'
+
+04-06-2024T13:56:43 - [TEST_STEP][PASSED] - cartPrice = getText(findTestObject("android.widget.TextView - 29.99 (1)"), 0): Text of element 'Object Repository/android.widget.TextView - 29.99 (1)' is: '$29.99'
+
+04-06-2024T13:56:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:43 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 29.99 (1)' is: '$29.99'
+
+04-06-2024T13:56:43 - [TEST_STEP][PASSED] - verifyMatch(price, cartPrice, false): Actual text '$29.99' and expected text '$29.99' are matched 
+
+04-06-2024T13:56:43 - [MESSAGE][PASSED] - Actual text '$29.99' and expected text '$29.99' are matched 
+
+04-06-2024T13:56:43 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - CHECKOUT"), 0): Tapped on element 'Object Repository/android.widget.TextView - CHECKOUT'
+
+04-06-2024T13:56:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:56:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - CHECKOUT'
+
+04-06-2024T13:56:59 - [TEST_STEP][PASSED] - setText(findTestObject("android.widget.EditText - First Name"), firstName, 0): Text 'ricky' has been set to element 'Object Repository/android.widget.EditText - First Name'
+
+04-06-2024T13:56:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:57:02 - [MESSAGE][PASSED] - Text 'ricky' has been set to element 'Object Repository/android.widget.EditText - First Name'
+
+04-06-2024T13:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("android.widget.EditText - Last Name"), lastName, 0): Text 'julianto' has been set to element 'Object Repository/android.widget.EditText - Last Name'
+
+04-06-2024T13:57:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:57:05 - [MESSAGE][PASSED] - Text 'julianto' has been set to element 'Object Repository/android.widget.EditText - Last Name'
+
+04-06-2024T13:57:05 - [TEST_STEP][PASSED] - setText(findTestObject("android.widget.EditText - ZipPostal Code"), postal, 0): Text '16450' has been set to element 'Object Repository/android.widget.EditText - ZipPostal Code'
+
+04-06-2024T13:57:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:57:08 - [MESSAGE][PASSED] - Text '16450' has been set to element 'Object Repository/android.widget.EditText - ZipPostal Code'
+
+04-06-2024T13:57:08 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-06-2024T13:57:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-06-2024T13:57:10 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - CONTINUE"), 0): Tapped on element 'Object Repository/android.widget.TextView - CONTINUE'
+
+04-06-2024T13:57:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-06-2024T13:57:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - CONTINUE']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-06-2024T13:56:16 - [TEST_SUITE][PASSED] - 1st: Test Cases/add to cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

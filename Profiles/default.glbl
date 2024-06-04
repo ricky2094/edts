@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\ricky\\Downloads\\super-framework-master\\super-framework-master\\apps\\sauce-demo-app-2.7.1.apk'</initValue>
+      <name>apkUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'standard_user'</initValue>
+      <name>validUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'secret_sauce'</initValue>
+      <name>validPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ricky'</initValue>
+      <name>firstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'julianto'</initValue>
+      <name>lastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'16450'</initValue>
+      <name>postal</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
